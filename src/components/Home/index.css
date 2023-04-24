@@ -1,0 +1,32 @@
+.main-container {
+  display: flex;
+}
+
+.right-container {
+  width: 90%;
+  margin-left: 0px;
+  margin-top: 70px;
+  /* border: 1px solid black; */
+}
+
+.right-bottom-container {
+  overflow-y: scroll;
+  height: 90vh;
+  padding: 30px;
+  background-color: #f9f9f9;
+  /* border: 1px solid red; */
+}
+
+.new-col {
+  background-color: #181818;
+}
+
+@media (max-width: 768px) {
+  .right-bottom-container {
+    overflow-y: unset;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+}

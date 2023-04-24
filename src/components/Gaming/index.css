@@ -1,0 +1,29 @@
+.gaming-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gaming-list-item {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.gaming-img {
+  height: 300px;
+  width: 200px;
+}
+
+.gaming-link {
+  text-decoration: none;
+}
+
+@media (max-width: 300px) {
+  .gaming-list {
+    justify-content: center;
+  }
+
+  .gaming-list-item {
+    margin-right: 0px;
+  }
+}

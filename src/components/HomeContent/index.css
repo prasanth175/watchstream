@@ -1,0 +1,128 @@
+.search {
+  display: flex;
+}
+
+.search-input {
+  border: 1px solid black;
+  height: 35px;
+  width: 30%;
+  padding: 10px;
+}
+
+.input-dark {
+  border: 1px solid grey;
+  background-color: black;
+  color: grey;
+}
+
+.search-icon-container {
+  border: 1px solid black;
+  height: 35px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-dark {
+  background-color: grey;
+  color: rgb(149, 146, 146);
+  border: 1px solid grey;
+}
+
+.dark-theme {
+  background-color: black;
+}
+
+/*------------------------videos List---------------------*/
+
+.videos-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.fail-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fail-img {
+  width: 400px;
+  height: 300px;
+}
+
+.fail-heading {
+  font-size: 20px;
+}
+
+.fail-txt {
+  font-family: 'Roboto';
+  font-weight: 450;
+  font-size: 13px;
+}
+
+.retry-btn {
+  background-color: rgb(56, 154, 234);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.loader-container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .search-input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .videos-list {
+    justify-content: center;
+  }
+
+  .fail-img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .fail-heading {
+    font-size: 15px;
+  }
+
+  .fail-txt {
+    font-family: 'Roboto';
+    font-weight: 450;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .fail-img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .fail-heading {
+    font-size: 15px;
+  }
+
+  .fail-txt {
+    font-family: 'Roboto';
+    font-weight: 450;
+    font-size: 10px;
+    text-align: center;
+  }
+}

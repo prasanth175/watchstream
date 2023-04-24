@@ -1,0 +1,24 @@
+.checkbox-btn {
+  text-align: left;
+}
+
+.bg-grey {
+  background-color: rgb(62, 56, 56);
+}
+
+.bg-black {
+  background-color: black;
+  box-shadow: none;
+  color: white;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 450;
+}
+
+.login-input {
+  color: white;
+}

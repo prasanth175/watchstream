@@ -1,0 +1,115 @@
+.video-details {
+  padding: 20px;
+}
+
+.public-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.views-years {
+  display: flex;
+  align-items: center;
+}
+
+.reactions {
+  display: flex;
+  align-items: center;
+}
+
+.reaction {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.reaction-icon {
+  margin-right: 5px;
+}
+
+.reaction-txt {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.special {
+  margin-top: 0px !important;
+}
+
+.react-btn {
+  padding-left: 0px;
+}
+
+.profile-content {
+  display: flex;
+}
+
+.profile-content-txt {
+  margin-left: 10px;
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  font-weight: 450;
+  font-size: 13px;
+}
+
+.subs {
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.desc {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.txt-black {
+  background-color: #0f0f0f;
+  color: #64748b;
+}
+
+.video-content-title {
+  margin-top: 20px;
+}
+
+.txt-blue {
+  color: #2563eb;
+}
+
+@media (max-width: 767px) {
+  .video {
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .video-details {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 567px) {
+  .video {
+    width: 100% !important;
+    height: 200px !important;
+  }
+
+  .public-info {
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 450;
+  }
+
+  .reactions {
+    margin-top: 10px;
+  }
+}
